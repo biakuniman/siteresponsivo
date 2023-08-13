@@ -1,0 +1,45 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.content {
+  padding: 2em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+.potato-types ul {
+  list-style: disc;
+  padding-left: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  header {
+    font-size: 1.5em;
+  }
+}
